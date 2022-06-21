@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+.card1 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card1 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card1 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
+
+/* Card second */
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: darkgreen;
+}
+
+.card2 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card2 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card2 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
+
+/*Card third css */
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background: #ff4e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f9d423,
+    #ff4e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f9d423,
+    #ff4e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card3 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card3 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card3 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
+
+/****************card four****************************/
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
+}
+
+.card4 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card4 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card4 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
+
+/*****************card five************************/
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background: #0575e6;
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6);
+}
+
+.card5 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card5 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card5 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
+
+/*****************card six************************/
+.card6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background: #333333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card6 h1 {
+  color: white;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.card6 h2 {
+  /* //color:Red; */
+  font-size: 20px;
+  color: White;
+  /* //text-shadow: 2px 2px 5px red; */
+}
+
+.card6 span {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px red;
+}
